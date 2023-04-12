@@ -1,0 +1,241 @@
+
+.DocoMeMobile{
+    max-width: 100%;
+    background-color: #F2EDE7;
+  }
+  
+
+.Intro{
+    height: 100vh;  
+    align-content: center;
+}
+
+.MainHeaders{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 500;
+    color: #211F58;
+}
+
+.SubHeaders{
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 400;
+    color: #211F58;
+}
+
+.IntroImage{
+    height: 50vh;
+    max-width: 70vw;
+    border-radius: 16px;
+    box-shadow: 0px 5px rgb(211, 211, 211,0.5);  
+}
+
+.IntroImageContainer{
+    justify-content: center;
+}
+
+.ContactButton{
+    justify-content: center;
+}
+
+
+
+
+.Step{
+    height: 40vh;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.StepHeader{
+   justify-content: right;
+   font-size: 2vh;
+   color: #211F58;
+   font-weight: 500;
+}
+
+
+.step-image-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+
+.step-image-container-div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) , rgba(0,0,0,0));
+    border-radius: 32px;
+}
+
+.step-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+    box-shadow: 0px 5px rgb(211, 211, 211,0.5);  
+}
+
+
+.step-image-text{
+    font-size: 2vh;
+    height: 100%;
+    text-align: center;
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    height: fit-content;
+    text-align: right;
+    color : white;
+    border-radius: 32px;
+    text-shadow: 0 0 25px black;
+  }
+  
+
+  .Whos{
+        height: 100vh;
+        align-content: center;
+  }
+
+  .whos-image-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .whos-image-container-div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) , rgba(0,0,0,0));
+    border-radius: 32px;
+  }
+
+
+  .whos-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+    box-shadow: 0px 5px rgb(211, 211, 211,0.5);  
+}
+
+.whos-image-text{
+    font-size: 2vh;
+    height: 100%;
+    text-align: center;
+    top: 80%;
+    right: 5%;
+    position: absolute;
+    height: fit-content;
+    text-align: right;
+    color : white;
+    border-radius: 32px;
+    text-shadow: 0 0 25px black;
+  }
+  
+.whos-gallery{
+    height: 75vh;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.Package{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.PackageCard{
+    height: 80vh;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 5px rgb(211, 211, 211,0.5);
+    text-align: right;
+    justify-content: right;
+}
+
+.PackageCardImageContainer{
+    height: 30vh;
+    background-color: blue;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.PackageCardImage{
+    height: 100%;
+    width : 100%;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.packageRowMobile{
+    margin-right: 10%;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.packageRowIconMobile{
+    padding-top: 2%;
+    padding-right: 5%;
+    color:#211F58
+  }
+
+  .packageSubtextMobile{
+    font-size : 1.5vh;
+    padding-right: 5%;
+    font-weight: 500;
+    color: #211F58;
+  }
+
+  .PackageCardTextContainer{
+    height: 40vh;
+  }
+  
+
+  .Contact{
+    height: 100vh;
+    align-content: center;
+    background-image: url('./Images-mobile/ContactBackgroundEdited.JPEG');
+    background-size: cover;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .ContactCard{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+  }
+
+  .ContactCard::before{
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px) saturate(80%) contrast(45%) brightness(130%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+
+.ContactHeader{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.ContactForm {
+  position: relative;
+  z-index: 2;
+  margin-bottom : 10%;
+}
+

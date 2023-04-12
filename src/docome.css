@@ -1,0 +1,273 @@
+
+.DocoMe{
+  max-width: 100%;
+  background-color: #F2EDE7;
+}
+
+
+.attractive-button{
+  font-size: 1vw;
+}
+
+.intro-section{
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;;
+}
+
+  .book-image {
+      height: 70vh;
+      border-radius: 32px;
+      box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+  }
+
+  .main-headers{
+      font-size : 2.8vw;
+      margin: 0px;
+      color: #01054C;
+  }
+
+
+.proccess-header{
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.step{
+  margin-bottom: 5%;
+}
+  .step-image{
+      height: 100%;
+      width: 100%;
+      border-radius: 32px;
+      box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+  }
+
+  .step-text{
+    
+      text-align: right;
+  }
+
+  .step-header{
+      margin: 0;
+      font-size : 1.8vw;
+      color: #01054C;
+  }
+
+  .step-subtext{
+      font-size : 1.2vw;
+      color: #211F58;
+  }
+  
+.whos-section{
+  text-align: center;
+}
+
+.whos-row{    
+  height: 45vh;
+  margin-top: 5%;
+}
+
+.whos-image-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.whos-image-container-div{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to top, rgba(0,0,0,0.5) , rgba(0,0,0,0));
+  border-radius: 32px;
+}
+
+.whos-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 32px;
+  box-shadow: 0px 5px rgb(211, 211, 211,0.5);  
+}
+
+
+.whos-image-text{
+  font-size: 1.2vw;
+  height: 100%;
+  text-align: center;
+  top: 75%;
+  right: 6%;
+  position: absolute;
+  height: fit-content;
+  text-align: right;
+  color : white;
+  border-radius: 32px;
+  text-shadow: 0 0 25px black;
+}
+
+.whos-image-header{
+  font-size: 1.2vw;
+  text-align: center;
+  top: 68%;
+  right: 6%;
+  position: absolute;
+  height: fit-content;
+  color : white;
+
+}
+
+
+.package-section{
+  height: 85vh;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  
+}
+
+.package-image{
+  height: 90%;
+  width: 75%;
+  margin-left: 10%;
+  border-radius: 32px;
+  box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+}
+
+.package-text{
+  text-align: right;
+  max-height: 85vh;
+  overflow: hidden;
+}
+
+
+.package-subtext{
+  font-size : 1.2vw;
+  color: #211F58;
+}
+
+.about-subtext{
+  font-size : 1.2vw;
+  color: #211F58;
+}
+
+.package-little-subtext{
+  font-size : 18px;
+  color: #211F58
+}
+
+.package-row-icon{
+  padding-top: 1%;
+  color:#211F58
+}
+
+.package-row{
+align-items: center;
+}
+
+.package-button{ 
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.contact-section{
+  height: 85vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contact-image{
+  height: 100%;
+  width: 75%;
+  border-radius: 32px;
+  box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+}
+
+.contact-image-2{
+  border-radius: 0px 72px 0px 72px;
+  height: 100%;
+  width: 100%;
+}
+
+
+.contact-header{
+  text-align: center;
+  height: 10vh;
+  color: #01054C;
+}
+
+.contact-header-2{
+  text-align: right;
+  height: 10vh;
+  color: #01054C;
+}
+
+.contact-social{
+  align-items: center;
+  height:80vh
+}
+
+.contact-social-form-container{
+  height: 65vh;
+  width: 100%;
+  align-items: center;
+}
+
+.contact-social-form{
+  height: 60vh;
+}
+
+.contact-social-form-content{
+ padding-right: 2vw;
+ padding-top: 1vw;
+ width: 100%;
+ justify-content: right;
+ font-size: 0.8vw;
+}
+
+.contact-social-form-button{
+  justify-content: center;
+}
+
+.contact-social-icon{
+  justify-content: center;
+}
+
+.contact-social-addresses{
+  text-align: center;
+  font-size: 0.8vw;
+}
+
+.contact-divider{
+  height: 30vh;
+}
+
+.contact-sub-header{
+  font-size : 2vw;
+  color: #01054C;
+}
+
+.contact-field-labels{
+  font-size : 0.8vw;
+}
+
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.contact-social-form-container-2{
+  height: 62vh;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.contact-social-form-content-2{
+  width: 100%;
+  justify-content: right;
+  font-size: 0.8vw;
+ }
