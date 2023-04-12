@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Docome/static/css/main.14bbacff.css",
-    "main.js": "/Docome/static/js/main.460b79e7.js",
+    "main.css": "/Docome/static/css/main.a5a0cf60.css",
+    "main.js": "/Docome/static/js/main.6930f9e4.js",
     "static/js/787.2f9e5014.chunk.js": "/Docome/static/js/787.2f9e5014.chunk.js",
     "static/media/AboutMe.jpg": "/Docome/static/media/AboutMe.c1b08ed80278548653f8.jpg",
     "static/media/BookVideoTrans.mp4": "/Docome/static/media/BookVideoTrans.0baba1dbcdb516973ebf.mp4",
@@ -24,12 +24,12 @@
     "static/media/OpenBook.png": "/Docome/static/media/OpenBook.93bdfa9d754a32aa3bca.png",
     "static/media/tree-736885__480.jpg": "/Docome/static/media/tree-736885__480.88c826693843cb00e0de.jpg",
     "index.html": "/Docome/index.html",
-    "main.14bbacff.css.map": "/Docome/static/css/main.14bbacff.css.map",
-    "main.460b79e7.js.map": "/Docome/static/js/main.460b79e7.js.map",
+    "main.a5a0cf60.css.map": "/Docome/static/css/main.a5a0cf60.css.map",
+    "main.6930f9e4.js.map": "/Docome/static/js/main.6930f9e4.js.map",
     "787.2f9e5014.chunk.js.map": "/Docome/static/js/787.2f9e5014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14bbacff.css",
-    "static/js/main.460b79e7.js"
+    "static/css/main.a5a0cf60.css",
+    "static/js/main.6930f9e4.js"
   ]
 }
