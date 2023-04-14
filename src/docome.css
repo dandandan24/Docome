@@ -44,7 +44,7 @@
       height: 100%;
       width: 100%;
       border-radius: 32px;
-      box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+      box-shadow:  0 1rem 2rem -0.75rem hsla(0,0%,0%,0.4);     
   }
 
   .step-text{
@@ -132,7 +132,7 @@
   width: 75%;
   margin-left: 10%;
   border-radius: 32px;
-  box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+  box-shadow: 0 1.5rem 2rem -0.75rem hsla(0,0%,0%,0.4);
 }
 
 .package-text{
@@ -182,7 +182,7 @@ align-items: center;
   height: 100%;
   width: 75%;
   border-radius: 32px;
-  box-shadow: 0px 5px rgb(211, 211, 211,0.5);     
+  box-shadow: 0 1.5rem 2rem -0.75rem hsla(0,0%,0%,0.4);
 }
 
 .contact-image-2{

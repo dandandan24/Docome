@@ -34,11 +34,24 @@ import ClickPhoto from './Images-mobile/ClickPhotoLandscape.jpg'
 import additiveInfo from './Images-mobile/AdditiveInfo.jpg'
 import MidAgeCouple from './Images-mobile/midAgeCoupleMobileEdited.jpg'
 import PackageBook from './Images-mobile/PackageBookMobile.jpg'
+import ImageSlider from './ImageSlider'; 
+import ImageSliderAuto from './ImageSliderAuto'
+import businessManMobileEdited from './Images-mobile/businessManMobileEdited.jpg'
+import OldCoupleMobileEdited from './Images-mobile/OldCoupleMobileEditedv2.jpg'
+import FamilyMobile from './Images-mobile/FamillyMobile.jpg'
+
 
 const DocomeMobile = () => {
     const [name, setName] = useState("");
     const [mail,setMail] = useState("");
     const [message, setMessage] = useState(""); 
+
+    const slides = [
+      {url : MidAgeCouple , title : "אמא, אבא או אדם יקר", subtext : "שחוגגים יום הולדת או מאורע משמח"},
+      {url : businessManMobileEdited , title : "איש או אשת עסקים", subtext : "שרוצים לארוז את כל הידע ואת הדרך שפיתחו למסמך אחד בעל ערך"},
+      {url : OldCoupleMobileEdited , title : "סבא וסבתא", subtext : "למי שרוצה לתעד את הסיפור המשפחתי המיוחד ולייצר נכס משמעותי לדורות הבאים"},
+      {url : FamilyMobile , title : "משפחה", subtext : "שרוצה ליצוק את סיפור יצירת המשפחה לתוך ספר חוויתי"},
+    ]
 
     const sendEmail = (e) => {
         // emailjs.send('docome', 'docome', {to_name : 'revital', from_name : name, message : message, from_email: mail, from_phone: '054-3329697'}, 'AdaJ7dw4Wmj9bxnQf')
@@ -50,11 +63,13 @@ const DocomeMobile = () => {
         console.log("Email Sent")
       };
 
+    
+
 
     return(
        <Grid container className='DocoMeMobile'>
           {/* Intro Section */}
-          <Grid container className='Intro'>
+          <Grid container item className='Intro'>
             <Grid item xs = {12} className = 'MainHeaders'>
               <p>דוקו - מי</p>
             </Grid>
@@ -67,13 +82,16 @@ const DocomeMobile = () => {
             <Grid container item xs = {12} className = 'ContactButton'>
                 <Button style = {{fontSize : '2vh' , backgroundColor : '#01054C', color: 'white',marginTop : '10%', boxShadow : '0px 0px 10px rgb(1, 5, 76,0.5)'}}>ליצירת קשר</Button>
             </Grid>
+            <Grid container item xs = {12} className = 'gap' style = {{height:'15vh'}}>
+                
+            </Grid>
           </Grid>
           {/* proccess Section */}
           <Grid container className = 'Proccess'>
               <Grid item xs = {12} className = 'MainHeaders'>
                 <p>תהליך היצירה</p>
               </Grid>
-              <Grid item container xs = {12} className = 'Step'>
+              <Grid item container xs = {12 } className = 'Step'>
                 <Grid container item xs = {12} className = 'StepHeader'>
                     <p>נפגשים ומקשיבים לסיפור</p>
                 </Grid>
@@ -115,28 +133,25 @@ const DocomeMobile = () => {
                 </Grid>
               </Grid>
               <Grid container item xs = {12} className = 'ContactButton'>
-                <Button style = {{fontSize : '2vh' , backgroundColor : '#01054C', color: 'white',marginTop : '10%',boxShadow : '0px 0px 10px rgb(1, 5, 76,0.5)'}}>חבילות דוקו-מי</Button>
+                <Button style = {{fontSize : '2vh' , backgroundColor : '#01054C', color: 'white',marginTop : '10%',boxShadow : '0px 0px 10px rgb(1, 5, 76,0.5)'}}>חבילת דוקו-מי</Button>
             </Grid>
           </Grid>
           {/*Who's for Section */}
           <Grid container className = 'Whos'>
-            <Grid item xs = {12} className = 'SubHeaders'>
-              <p>למי מתאים לתת דוקו-מי</p>
-            </Grid>
-            <Grid item container xs = {12} className = 'whos-gallery'>
-                <Grid item xs = {12}  className='whos-image-container'>     
-                  <div className='whos-image-container-div'></div>                  
-                  <img src = {MidAgeCouple} className = "whos-image"></img>
-                  <p className='whos-image-text'>אמא, אבא או אדם יקר <br></br> שחוגגים יום הולדת או מאורע משמח</p>             
-                </Grid>
-              </Grid>
+            {/* <div className='SliderContainer'>
+             <ImageSlider slides={slides}></ImageSlider>
+            </div>  */}
+            <Grid item xs = {12} className = 'SubHeaders' style={{height :'1vh', margin : '0px', marginTop:'5vh'}}>
+              <p>למי מתאים לתת דוקו-מי</p>              
+            </Grid>    
+            <ImageSliderAuto slides={slides}></ImageSliderAuto>
           </Grid>
           {/* Package Section */}
           <Grid container className='Package'>
             <Grid item xs = {12} className = 'SubHeaders'>
                 <p>חבילת דוקו-מי</p>
             </Grid>
-            <Grid container item xs = {11} className = 'PackageCard'>
+            <Grid container item xs = {10} className = 'PackageCard'>
                 <Grid item xs = {12} className = 'PackageCardImageContainer'>
                     <img src = {PackageBook} className = 'PackageCardImage'></img>
                 </Grid>
@@ -242,7 +257,7 @@ const DocomeMobile = () => {
                   </TextField>
               </Grid>
               <Grid container item xs = {12} className = 'ContactButton'>
-                <Button style = {{fontSize : '2vh', width: '50%',height:'40%' , backgroundColor : '#01054C', color: 'white',marginTop : '10%',marginBottom : '10%'}} onClick = {() => {sendEmail()}}>ליצירת קשר</Button>
+                <Button style = {{fontSize : '2vh', width:'50%', height:'60%' , backgroundColor : '#01054C', color: 'white',marginTop : '2%',marginBottom : '5%'}} onClick = {() => {sendEmail()}}>ליצירת קשר</Button>
             </Grid>
             </Grid>
           </Grid>
