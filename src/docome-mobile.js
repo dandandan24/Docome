@@ -64,6 +64,12 @@ const DocomeMobile = () => {
       };
 
     
+      const ScrollToContact = (Section) => {
+        const element = document.getElementById(Section)
+        if(element){
+            element.scrollIntoView({behavior:'smooth'});
+        }
+    }
 
 
     return(
@@ -80,7 +86,7 @@ const DocomeMobile = () => {
               <img src = {Packagebook} className = 'IntroImage'></img>
             </Grid>
             <Grid container item xs = {12} className = 'ContactButton'>
-                <Button style = {{fontSize : '2vh' , backgroundColor : '#01054C', color: 'white',marginTop : '10%', boxShadow : '0px 0px 10px rgb(1, 5, 76,0.5)'}}>ליצירת קשר</Button>
+                <Button onClick={() => ScrollToContact('contact-section')} style = {{fontSize : '2vh' , backgroundColor : '#01054C', color: 'white',marginTop : '10%', boxShadow : '0px 0px 10px rgb(1, 5, 76,0.5)'}}>ליצירת קשר</Button>
             </Grid>
             <Grid container item xs = {12} className = 'gap' style = {{height:'15vh'}}>
                 
@@ -206,13 +212,13 @@ const DocomeMobile = () => {
                 </Grid>
                 </Grid>
                 <Grid container item xs = {12} className = 'ContactButton'>
-                  <Button style = {{fontSize : '1.7vh' , backgroundColor : '#01054C', color: 'white',marginTop : '5%',marginBottom : '5%', width: '40%'}}>ליצירת קשר</Button>
+                  <Button onClick={() => ScrollToContact('contact-section')} style = {{fontSize : '1.7vh' , backgroundColor : '#01054C', color: 'white',marginTop : '5%',marginBottom : '5%', width: '40%'}}>ליצירת קשר</Button>
                 </Grid>
             </Grid>
           </Grid>
           {/* About Us Section */}
           {/* Contact Us Section */}
-          <Grid container className='Contact'>
+          <Grid container className='Contact' id = 'contact-section'>
             <Grid container item xs = {10} className = 'ContactCard'>
               <Grid item xs = {12} className = 'ContactHeader'>
                 <p>צרו קשר</p>
